@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.navbar img {
+    width: 2rem;
+    margin-right: 2%;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+nav {
+    background-color: transparent;
+}
+
+.navbar-brand a {
+    margin: 0%;
+    width: 50%;
+}
+
+#carousel1 {
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background: transparent;
+    border-color: transparent;
+}
+
+.borde {
+    border-bottom: solid;
+    border-color: turquoise;
+}
