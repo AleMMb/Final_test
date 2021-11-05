@@ -35,5 +35,17 @@ nav {
 
 .borde {
     border-bottom: solid;
-    border-color: turquoise;
+    border-color: #17a2b8;
+}
+
+.card-body {
+    background-color: #17a2b8;
+}
+
+footer {
+    background-color: #17a2b8;
+}
+
+footer i {
+    margin-left: 1rem;
 }
