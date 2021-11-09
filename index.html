@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Viajes Chile</title>
+    <link rel="shortcut icon" type="image/png" href="./assets/img/viajes.svg">
     <meta name="author" content="Alejandra Mella B">
     <meta name="description" content="Agencia de viajes, Chile, Turismo.">
     <meta name="Keywords" content="Turismo, Tips, Rutas, Pasajes, Mapas, Paisajes, Guías.">
@@ -18,13 +19,11 @@
 </head>
 
 <body>
-
+    <!--barra de navegación-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#"><img src="./assets/img/viajes.svg" alt="Logo del sitio web">Viajes Chile</a>
         <button class="navbar-toggler text-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
+            <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
@@ -43,6 +42,7 @@
         </div>
     </nav>
     <main>
+        <!--carousel-->
         <div id="carousel1" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -57,13 +57,12 @@
             </div>
             <button class="carousel-control-prev" type="button" data-target="#carousel1" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </button>
+                <span class="sr-only">Previous</span></button>
             <button class="carousel-control-next" type="button" data-target="#carousel1" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </button>
+                <span class="sr-only">Next</span></button>
         </div>
+        <!--sección quiénes somos-->
         <section id="us" class=" d-none d-lg-block">
             <div class="borde mx-4 py-4">
                 <h3 class="text-center somos" data-toggle="tooltip" data-placement="top" title="Dame click">¿Quiénes somos?</h3>
@@ -106,6 +105,7 @@
                 </div>
             </div>
         </section>
+        <!--sección destacados-->
         <section id="highlights" class="bg-dark text-white">
             <div class="borde mx-4 py-4">
                 <h3 class="text-center">Destacados</h3>
@@ -130,7 +130,8 @@
                         <img src="./assets/img/card3.jpg" class="card-img-top" alt="Paisaje3">
                         <div class="card-body">
                             <h5 class="card-title text-center">praesentium eum</h5>
-                            <p class="card-text border border-light rounded-bottom text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero, ut facilis illum impedit itaque doloribus accusantium suscipit quidem consequatur, labore non sit officia? Cumque quisquam atque corporis eaque maiores.</p>
+                            <p class="card-text border border-light rounded-bottom text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto vero, ut facilis illum impedit itaque doloribus accusantium suscipit quidem consequatur, labore non sit officia? Cumque quisquam atque corporis eaque maiores ullam
+                                odit saepe distinctio.</p>
                         </div>
                     </div>
                     <div class="card">
@@ -142,28 +143,28 @@
                     </div>
                 </div>
         </section>
-
+        <!--seccción contacto con formulario-->
         <section id="contact" class="bg-dark text-white">
             <div class="borde mx-4 py-4">
                 <h3 class="text-center">Contacto</h3>
             </div>
-
-            <!--<div>
+            <div>
                 <div data-tf-widget="WDk5WZ02" data-tf-opacity="53" data-tf-hide-headers style="width:100%;height:400px;">
-                </div><script src="//embed.typeform.com/next/embed.js"></script>
-            </div>-->
-        </section>
-
-        <footer class="container-fluid text-white p-2 m-0">
-            <div class=" row col-sm 12 link m-0">
-                <h3> VIAJES CHILE</h3>
-                <a href="https://github.com/" target="_blank"><i class=" link fab fa-github-square fa-2x foot"></i></a>
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x foot"></i></a>
-                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x foot"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x foot"></i></a>
+                </div>
+                <script src="//embed.typeform.com/next/embed.js"></script>
             </div>
-        </footer>
+        </section>
     </main>
+    <!--footer-->
+    <footer class="container-fluid text-white p-2 m-0">
+        <div class=" row col-sm 12 link m-0">
+            <h3> VIAJES CHILE</h3>
+            <a href="https://github.com/" target="_blank"><i class=" link fab fa-github-square fa-2x foot"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-2x foot"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fa-2x foot"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x foot"></i></a>
+        </div>
+    </footer>
 
     <!--Jquery.min no slim v 3.6.0-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
