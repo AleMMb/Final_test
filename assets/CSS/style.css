@@ -2,6 +2,7 @@ html {
     margin: 0;
     padding: 0;
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 .navbar img {
@@ -38,14 +39,41 @@ nav {
     border-color: #17a2b8;
 }
 
+#us {
+    background-color: #343a40;
+    color: white;
+    padding-bottom: 6rem;
+}
+
+#highlights {
+    padding-bottom: 5rem;
+}
+
 .card-body {
     background-color: #17a2b8;
 }
 
 footer {
     background-color: #17a2b8;
+    display: flex;
 }
 
-footer i {
-    margin-left: 1rem;
+footer h3 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.link {
+    justify-content: center;
+}
+
+footer .icons {
+    margin-left: 10rem;
+    display: inline-block
+}
+
+footer a {
+    margin-left: 0.5rem;
+    margin-right: 0.5em;
+    color: white;
 }
